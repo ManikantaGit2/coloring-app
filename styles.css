@@ -1,0 +1,32 @@
+/* styles.css */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.toolbar {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+canvas {
+    border: 2px solid black;
+    background: white;
+    cursor: crosshair;
+}
